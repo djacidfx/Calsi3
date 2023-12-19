@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"홈으로 이동"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"위로 이동"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"추가 옵션"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"완료"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"사용 중지"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"사용"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"검색..."</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"접기"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b>에 방문하여 위 코드를 입력하세요.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">이미지를 다운로드하는 중 예기치 않은 오류가 발생했습니다.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView 로그인에 인터넷 권한이 필요합니다</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest 오류</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">좋아요</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">좋아요</string>
+    <string gender="unknown" name="com_facebook_loading">읽어들이는 중…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">취소</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">로그인</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook으로 계속하기</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Facebook으로 로그인</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">로그아웃</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">로그아웃</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">로그인 사용자: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Facebook을 사용하여 로그인함</string>
+    <string gender="unknown" name="com_facebook_send_button_text">보내기</string>
+    <string gender="unknown" name="com_facebook_share_button_text">공유하기</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">계정에 연결하려면 모바일 기기에서 Facebook 앱을 열고 알림을 확인하세요.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- 또는 -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">회원님이 아닌가요?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">%1$s님으로 계속</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">로그인 확인</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">앱과 공유할 정보를 자유롭게 선택할 수 있습니다.</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요."</string>
+    <string name="gmts_ad_format_load_success_title">%1$s 광고가 로드됨</string>
+    <string name="gmts_ad_load">광고 로드</string>
+    <string name="gmts_ad_load_in_progress_title">광고를 로드하는 중입니다.</string>
+    <string name="gmts_ad_source_custom_event_title_format">맞춤 이벤트: %1$s</string>
+    <string name="gmts_ad_unit_details_title">광고 단위 세부정보</string>
+    <string name="gmts_ad_unit_format_label_format">%1$s 광고 단위</string>
+    <string name="gmts_ad_unit_id">광고 단위 ID</string>
+    <string name="gmts_ad_units">광고 단위</string>
+    <string name="gmts_adapter">어댑터</string>
+    <string name="gmts_adapter_initialization_status">어댑터 초기화 상태</string>
+    <string name="gmts_admob_test_suite_title">AdMob 테스트 모음</string>
+    <string name="gmts_button_agree">동의</string>
+    <string name="gmts_button_cancel">취소</string>
+    <string name="gmts_button_load_ad">광고 로드</string>
+    <string name="gmts_button_load_ads">광고 로드</string>
+    <string name="gmts_button_ok">확인</string>
+    <string name="gmts_button_show_ad">광고 게재</string>
+    <string name="gmts_button_try_again">다시 시도</string>
+    <string name="gmts_compatible_with_format_ads">%1$s 광고와 호환</string>
+    <string name="gmts_custom_event">맞춤 이벤트</string>
+    <string name="gmts_disclaimer_confirmation">테스트 광고를 구성했으며 %1$s에 동의합니다.</string>
+    <string name="gmts_disclaimer_link_text">면책조항</string>
+    <string name="gmts_disclaimer_text">계정 소스가 광고 요청을 채우고 있지만 광고에서 클릭이 발생하지 않는 경우 광고
+        소스에서 부정 행위를 의심하여 계정이 정지될 수 있습니다. 그러나
+        테스트 광고를 사용하는 경우 광고 소스에서 광고 요청이 테스트용임을 인식하므로
+        계정 정지 위험을 피할 수 있습니다.</string>
+    <string name="gmts_disclaimer_title">계정 정지 위험을 피하려면 테스트 광고를 사용하세요</string>
+    <string name="gmts_error_internal_error">내부 오류</string>
+    <string name="gmts_error_invalid_request">잘못된 요청</string>
+    <string name="gmts_error_missing_components_message">광고를 로드하려면 구현 오류를 해결해야 합니다.</string>
+    <string name="gmts_error_missing_components_title">광고를 로드할 수 없음</string>
+    <string name="gmts_error_network_error">네트워크 오류</string>
+    <string name="gmts_error_no_fill_message">광고 소스가 정확하게 설정되지 않은 것 같습니다. 설정 및 시스템 로그를 확인한 후 다시 시도해 주세요.</string>
+    <string name="gmts_error_no_fill_title">광고 소스에서 채우기 없음</string>
+    <string name="gmts_error_unsupported_ad_load_format">광고 로드가 지원되지 않는 형식입니다. \'%s\'이(가) 아닌 배너 또는 전면 광고여야 합니다.</string>
+    <string name="gmts_failing_ad_units">오류가 있는 광고 단위</string>
+    <string name="gmts_format">형식</string>
+    <string name="gmts_format_banner">배너</string>
+    <string name="gmts_format_banner_interstitial">배너, 전면 광고</string>
+    <string name="gmts_format_interstitial">전면 광고</string>
+    <string name="gmts_format_native">네이티브</string>
+    <string name="gmts_format_rewarded">리워드</string>
+    <string name="gmts_found">찾음</string>
+    <string name="gmts_loading_ads_message">광고 소스 및 네트워크 연결 속도에 따라 최대 2분이 소요될 수 있습니다.</string>
+    <string name="gmts_loading_ads_title">광고 로드 중</string>
+    <string name="gmts_log_text_app_id_missing">앱 ID가 앱 매니페스트에 제공되지 않아 Google 미디에이션 테스트 모음이 실행되지 않고 있습니다.</string>
+    <string name="gmts_log_text_device_not_registered">Google 미디에이션 테스트 모음을 실행 중인 기기가 디버그 불가 빌드가 아닌 경우 테스트 기기로 등록되지 않습니다.  디버그 불가 빌드의 기기에서 미디에이션 테스트 모음을 사용하려면
+기기 해시(로그에 \'Ads\'로 표시되어 있음)를 테스트 기기로
+          MediationTestSuite에 추가하세요.</string>
+    <string name="gmts_manifest">Manifest</string>
+    <string name="gmts_native_advertiser">- 광고주 \'%1$s\'</string>
+    <string name="gmts_native_body">- 본문 \'%1$s\'</string>
+    <string name="gmts_native_contains_video_false">- 동영상 애셋이 포함되지 않음</string>
+    <string name="gmts_native_contains_video_true">- 동영상 애셋이 포함됨</string>
+    <string name="gmts_native_cta">- 클릭 유도문안 \'%1$s\'</string>
+    <string name="gmts_native_headline">- 광고 제목 \'%1$s\'</string>
+    <string name="gmts_native_icon">- 아이콘 \'%1$s\'</string>
+    <string name="gmts_native_image">- 기본 이미지 \'%1$s\'</string>
+    <string name="gmts_native_price">- 가격 \'%1$s\'</string>
+    <string name="gmts_native_star_rating">- 별표 평점 \'%1$f\'</string>
+    <string name="gmts_native_store">- 스토어 \'%1$s\'</string>
+    <string name="gmts_no_ad_units_found">미디에이션된 광고 단위 없음</string>
+    <string name="gmts_not_found">찾을 수 없음</string>
+    <string name="gmts_not_tested_label">테스트되지 않음</string>
+    <string name="gmts_not_tested_message">광고 단위가 하나 이상의 광고를 로드하여 올바르게 설정되었는지 확인하세요. 정책 위반을 방지하기 위해 실제 광고 대신에 테스트 광고를 사용하세요.</string>
+    <string name="gmts_not_tested_title">아직 로드된 광고 없음</string>
+    <string name="gmts_num_ads_selected">%d개 선택됨</string>
+    <string name="gmts_open_bidding_load_message">공개 입찰 광고 로드가 출시되는 대로 이메일을 통해 알려드리겠습니다.</string>
+    <string name="gmts_open_bidding_load_title">출시 예정: 공개 입찰 광고 로드</string>
+    <string name="gmts_parameter_label">매개변수</string>
+    <string name="gmts_placeholder_search_ad_source">광고 소스별 검색</string>
+    <string name="gmts_placeholder_search_ad_units">광고 단위 ID, 광고 소스 또는 형식별 검색</string>
+    <string name="gmts_retrieved_assets">검색된 애셋</string>
+    <string name="gmts_sdk">SDK</string>
+    <string name="gmts_search_title">검색</string>
+    <string name="gmts_section_ad_load">광고 로드</string>
+    <string name="gmts_section_ad_source_configuration">광고 소스 구성</string>
+    <string name="gmts_section_ad_unit_info">세부정보</string>
+    <string name="gmts_section_configuration_errors">구성 오류</string>
+    <string name="gmts_section_implementation">구현</string>
+    <string name="gmts_section_missing_components">누락된 구성요소</string>
+    <string name="gmts_section_open_bidding_ad_sources">공개 입찰 광고 소스</string>
+    <string name="gmts_section_waterfall_ad_sources">폭포식 구조 광고 소스</string>
+    <string name="gmts_section_working">게재 중</string>
+    <string name="gmts_status_not_ready">준비되지 않음</string>
+    <string name="gmts_status_ready">준비됨</string>
+    <string name="gmts_subtitle_open_bidding_ad_source">공개 입찰 광고 소스</string>
+    <string name="gmts_subtitle_waterfall_ad_source">폭포식 구조 광고 소스</string>
+    <string name="gmts_version_string_format">%1$s: v%2$s</string>
+    <string name="gmts_working_ad_units">운영 중인 광고 단위</string>
+    <string msgid="368094699078615544" name="s1">"이미지 저장"</string>
+    <string msgid="4550830452390689489" name="s2">"광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?"</string>
+    <string msgid="2435407834265420668" name="s3">"동의"</string>
+    <string msgid="9167523597401839819" name="s4">"거부"</string>
+    <string msgid="1566682516266724847" name="s5">"캘린더 일정 만들기"</string>
+    <string msgid="5996672174517137271" name="s6">"광고에서 캘린더 일정을 만들도록 허용하시겠습니까?"</string>
+    <string msgid="7163549807207034258" name="s7">"테스트 광고"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"검색"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

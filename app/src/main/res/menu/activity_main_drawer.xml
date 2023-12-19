@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/simplecalculate"
+            android:icon="@drawable/calculatoricon"
+            android:title="Simple Calculator" />
+        <item
+            android:id="@+id/unitcalculate"
+            android:icon="@drawable/uniticon"
+            android:title="Unit Convertor" />
+        <item
+            android:id="@+id/agecalculate"
+            android:icon="@drawable/ageicon"
+            android:title="Age Calculator" />
+        <item
+            android:id="@+id/healthcalculate"
+            android:icon="@drawable/bmiicon"
+            android:title="Health Calculator" />
+        <item
+            android:id="@+id/emicalculate"
+            android:icon="@drawable/emicalsiicon"
+            android:title="Emi Calculator" />
+        <item
+            android:id="@+id/percentagecalculate"
+            android:icon="@drawable/percentageicon"
+            android:title="Percentage Calculator" />
+        <item
+            android:id="@+id/gstcalculate"
+            android:icon="@drawable/calsitaxicon"
+            android:title="GST Calculator" />
+
+    </group>
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="Rate us" />
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="About us" />
+        </menu>
+    </item>
+</menu>

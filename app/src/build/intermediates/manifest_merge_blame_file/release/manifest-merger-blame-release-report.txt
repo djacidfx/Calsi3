@@ -1,0 +1,316 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.home.calsi"
+4    android:versionCode="8"
+5    android:versionName="1.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:67:5-67
+11-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:67:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:69:5-79
+12-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:69:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ed8ab67d9ce208e3c4266afa049c6d2d\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ed8ab67d9ce208e3c4266afa049c6d2d\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.android.installreferrer:installreferrer:1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\478c855edb2cd00a780938febc088fff\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+17-->[com.android.installreferrer:installreferrer:1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\478c855edb2cd00a780938febc088fff\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+18
+19    <application
+19-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:5:5-66:19
+20        android:allowBackup="true"
+20-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:7:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\c89e0fd8fefda7f916aedad30f2900bc\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:hardwareAccelerated="true"
+22-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:6:9-43
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:8:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:9:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:10:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:11:9-35
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:12:9-40
+28        <activity
+28-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:13:9-16:58
+29            android:name="com.home.calsi.GstCalculator"
+29-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:13:19-48
+30            android:label="@string/app_name"
+30-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:14:13-45
+31            android:screenOrientation="portrait"
+31-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:15:13-49
+32            android:theme="@style/AppTheme.NoActionBar" />
+32-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:16:13-56
+33        <activity android:name="com.home.calsi.About" />
+33-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:19:9-43
+33-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:19:19-40
+34        <activity android:name="com.home.calsi.Help" />
+34-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:20:9-42
+34-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:20:19-39
+35        <activity
+35-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:21:9-31:20
+36            android:name="com.home.calsi.MainActivity"
+36-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:22:13-41
+37            android:label="@string/app_name"
+37-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:23:13-45
+38            android:screenOrientation="portrait"
+38-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:24:13-49
+39            android:theme="@style/AppTheme.NoActionBar" >
+39-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:25:13-56
+40            <intent-filter>
+40-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:26:13-30:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:27:17-69
+41-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:27:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:29:17-77
+43-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:29:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:32:9-36:59
+47            android:name="com.home.calsi.UnitConvertor"
+47-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:33:13-42
+48            android:label="@string/title_activity_unit_convertor"
+48-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:34:13-66
+49            android:screenOrientation="portrait"
+49-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:35:13-49
+50            android:theme="@style/AppTheme.NoActionBar" />
+50-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:36:13-56
+51        <activity
+51-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:37:9-41:59
+52            android:name="com.home.calsi.HealthCalculator"
+52-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:38:13-45
+53            android:label="@string/title_activity_health_calculator"
+53-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:39:13-69
+54            android:screenOrientation="portrait"
+54-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:40:13-49
+55            android:theme="@style/AppTheme.NoActionBar" />
+55-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:41:13-56
+56        <activity android:name="com.home.calsi.demo" />
+56-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:42:9-42
+56-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:42:19-39
+57        <activity
+57-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:43:9-47:59
+58            android:name="com.home.calsi.Age"
+58-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:44:13-32
+59            android:label="@string/title_activity_age"
+59-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:45:13-55
+60            android:screenOrientation="portrait"
+60-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:46:13-49
+61            android:theme="@style/AppTheme.NoActionBar" />
+61-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:47:13-56
+62        <activity
+62-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:48:9-52:59
+63            android:name="com.home.calsi.Percentage"
+63-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:49:13-39
+64            android:label="@string/title_activity_percentage"
+64-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:50:13-62
+65            android:screenOrientation="portrait"
+65-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:51:13-49
+66            android:theme="@style/AppTheme.NoActionBar" />
+66-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:52:13-56
+67        <activity
+67-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:53:9-57:59
+68            android:name="com.home.calsi.EMI"
+68-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:54:13-32
+69            android:label="@string/title_activity_emi"
+69-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:55:13-55
+70            android:screenOrientation="portrait"
+70-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:56:13-49
+71            android:theme="@style/AppTheme.NoActionBar" />
+71-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:57:13-56
+72
+73        <meta-data
+73-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:59:9-61:70
+74            android:name="com.google.android.gms.ads.APPLICATION_ID"
+74-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:60:13-69
+75            android:value="ca-app-pub-3547026615546708~8039130445" />
+75-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:61:13-67
+76        <meta-data
+76-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:63:9-65:47
+77            android:name="com.facebook.sdk.ApplicationId"
+77-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:64:13-58
+78            android:value="641298933145460" />
+78-->C:\Users\home\AndroidStudioProjects\Calsi3\app\src\main\AndroidManifest.xml:65:13-44
+79
+80        <activity
+80-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:6:9-11:70
+81            android:name="com.google.android.ads.mediationtestsuite.activities.HomeActivity"
+81-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:7:13-93
+82            android:exported="false"
+82-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:8:13-37
+83            android:label="@string/gmts_admob_test_suite_title"
+83-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:9:13-64
+84            android:screenOrientation="portrait"
+84-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:10:13-49
+85            android:theme="@style/gmts_TestSuiteTheme.NoActionBar" />
+85-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:11:13-67
+86        <activity
+86-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:12:9-17:63
+87            android:name="com.google.android.ads.mediationtestsuite.activities.NetworkDetailActivity"
+87-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:13:13-102
+88            android:exported="false"
+88-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:14:13-37
+89            android:screenOrientation="portrait"
+89-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:15:13-49
+90            android:theme="@style/gmts_AppSecondaryTheme"
+90-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:16:13-58
+91            android:windowSoftInputMode="stateAlwaysHidden" />
+91-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:17:13-60
+92        <activity
+92-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:18:9-23:73
+93            android:name="com.google.android.ads.mediationtestsuite.activities.AdUnitDetailActivity"
+93-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:19:13-101
+94            android:exported="false"
+94-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:20:13-37
+95            android:label="@string/gmts_ad_unit_details_title"
+95-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:21:13-63
+96            android:screenOrientation="portrait"
+96-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:22:13-49
+97            android:theme="@style/gmts_AppSecondaryTheme.NoActionBar" />
+97-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:23:13-70
+98        <activity
+98-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:24:9-28:73
+99            android:name="com.google.android.ads.mediationtestsuite.activities.AdUnitsSearchActivity"
+99-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:25:13-102
+100            android:exported="false"
+100-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:26:13-37
+101            android:screenOrientation="portrait"
+101-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:27:13-49
+102            android:theme="@style/gmts_AppSecondaryTheme.NoActionBar" />
+102-->[com.google.android.ads:mediation-test-suite:1.2.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\2af4ad8959fc355724da8767bfd6c732\jetified-mediation-test-suite-1.2.1\AndroidManifest.xml:28:13-70
+103        <activity
+103-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:15:9-19:75
+104            android:name="com.facebook.ads.AudienceNetworkActivity"
+104-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:16:13-68
+105            android:configChanges="keyboardHidden|orientation|screenSize"
+105-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:17:13-74
+106            android:exported="false"
+106-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:18:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:19:13-72
+108
+109        <provider
+109-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:21:9-24:40
+110            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+110-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:22:13-75
+111            android:authorities="com.home.calsi.AudienceNetworkContentProvider"
+111-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:23:13-82
+112            android:exported="false" />
+112-->[com.facebook.android:audience-network-sdk:5.10.1] C:\Users\home\.gradle\caches\transforms-2\files-2.1\5f33747fceb088a2321eb6eb49fff58f\jetified-audience-network-sdk-5.10.1\AndroidManifest.xml:24:13-37
+113
+114        <activity
+114-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
+115            android:name="com.facebook.FacebookActivity"
+115-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
+116            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+116-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
+117            android:theme="@style/com_facebook_activity_theme" />
+117-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+118        <activity android:name="com.facebook.CustomTabMainActivity" />
+118-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+118-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+119        <activity
+119-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
+120            android:name="com.facebook.CustomTabActivity"
+120-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
+121            android:exported="true" >
+121-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
+122            <intent-filter>
+122-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:17-69
+123-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:40:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:17-76
+125-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:42:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:17-78
+126-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:43:27-75
+127
+128                <data
+128-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:45:17-47:50
+129                    android:host="cct.com.home.calsi"
+129-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:46:21-56
+130                    android:scheme="fbconnect" />
+130-->[com.facebook.android:facebook-common:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\b7381d431da2ef8a399436a7fa3d9fde\jetified-facebook-common-5.15.3\AndroidManifest.xml:47:21-47
+131            </intent-filter>
+132        </activity> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+133        <activity
+133-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+134            android:name="com.google.android.gms.ads.AdActivity"
+134-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+135            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+135-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+137            android:theme="@android:style/Theme.Translucent" />
+137-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+138
+139        <provider
+139-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+140            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+140-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+141            android:authorities="com.home.calsi.mobileadsinitprovider"
+141-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+143            android:initOrder="100" />
+143-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\e5b79f62601bd5dfae25010418ca6141\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\d8c89801b1bd34f2a3b4fc873aa230c9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\d8c89801b1bd34f2a3b4fc873aa230c9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\home\.gradle\caches\transforms-2\files-2.1\d8c89801b1bd34f2a3b4fc873aa230c9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+148        <!--
+149         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+150         with the application context. This config is merged in with the host app's manifest,
+151         but there can only be one provider with the same authority activated at any given
+152         point; so if the end user has two or more different apps that use Facebook SDK, only the
+153         first one will be able to use the provider. To work around this problem, we use the
+154         following placeholder in the authority to identify each host application as if it was
+155         a completely different provider.
+156        -->
+157        <provider
+157-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+158            android:name="com.facebook.internal.FacebookInitProvider"
+158-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+159            android:authorities="com.home.calsi.FacebookInitProvider"
+159-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+160            android:exported="false" />
+160-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+161
+162        <receiver
+162-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+163            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+163-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+164            android:exported="false" >
+164-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+165            <intent-filter>
+165-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+166                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+166-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+166-->[com.facebook.android:facebook-core:5.15.3] C:\Users\home\.gradle\caches\transforms-2\files-2.1\ac63f171bca6aab0d2d5d27039739cb1\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+167            </intent-filter>
+168        </receiver>
+169    </application>
+170
+171</manifest>
